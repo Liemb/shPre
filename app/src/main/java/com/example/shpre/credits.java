@@ -32,7 +32,7 @@ public class credits extends AppCompatActivity {
      */
     public boolean onOptionsItemSelected(MenuItem menu) {
         String st = menu.getTitle().toString();
-        if ((st.equals("main activity"))) {
+        if ((st.equals("go to main"))) {
             Intent si = new Intent(this, MainActivity.class);
             startActivity(si);
         }
